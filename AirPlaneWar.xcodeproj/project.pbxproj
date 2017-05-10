@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FBF7F1A1EC2B91A007FA51C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBF7F191EC2B91A007FA51C /* main.m */; };
+		2FBF7F1D1EC2B91A007FA51C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBF7F1C1EC2B91A007FA51C /* AppDelegate.m */; };
+		2FBF7F201EC2B91A007FA51C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBF7F1F1EC2B91A007FA51C /* ViewController.m */; };
+		2FBF7F231EC2B91A007FA51C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FBF7F211EC2B91A007FA51C /* Main.storyboard */; };
+		2FBF7F251EC2B91A007FA51C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FBF7F241EC2B91A007FA51C /* Assets.xcassets */; };
+		2FBF7F281EC2B91A007FA51C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FBF7F261EC2B91A007FA51C /* LaunchScreen.storyboard */; };
+		2FBF7F331EC2B91B007FA51C /* AirPlaneWarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBF7F321EC2B91B007FA51C /* AirPlaneWarTests.m */; };
+		2FBF7F3E1EC2B91B007FA51C /* AirPlaneWarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBF7F3D1EC2B91B007FA51C /* AirPlaneWarUITests.m */; };
+		2FBF7F501EC2BB10007FA51C /* MyAirPlane.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBF7F4F1EC2BB10007FA51C /* MyAirPlane.m */; };
+		2FBF7F531EC2BB65007FA51C /* EnemyAirPlane.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBF7F521EC2BB65007FA51C /* EnemyAirPlane.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FBF7F2F1EC2B91B007FA51C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FBF7F0D1EC2B91A007FA51C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FBF7F141EC2B91A007FA51C;
+			remoteInfo = AirPlaneWar;
+		};
+		2FBF7F3A1EC2B91B007FA51C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FBF7F0D1EC2B91A007FA51C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FBF7F141EC2B91A007FA51C;
+			remoteInfo = AirPlaneWar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FBF7F151EC2B91A007FA51C /* AirPlaneWar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirPlaneWar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FBF7F191EC2B91A007FA51C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FBF7F1B1EC2B91A007FA51C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2FBF7F1C1EC2B91A007FA51C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2FBF7F1E1EC2B91A007FA51C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2FBF7F1F1EC2B91A007FA51C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2FBF7F221EC2B91A007FA51C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FBF7F241EC2B91A007FA51C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FBF7F271EC2B91A007FA51C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FBF7F291EC2B91B007FA51C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FBF7F2E1EC2B91B007FA51C /* AirPlaneWarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirPlaneWarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FBF7F321EC2B91B007FA51C /* AirPlaneWarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirPlaneWarTests.m; sourceTree = "<group>"; };
+		2FBF7F341EC2B91B007FA51C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FBF7F391EC2B91B007FA51C /* AirPlaneWarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirPlaneWarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FBF7F3D1EC2B91B007FA51C /* AirPlaneWarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirPlaneWarUITests.m; sourceTree = "<group>"; };
+		2FBF7F3F1EC2B91B007FA51C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FBF7F4E1EC2BB10007FA51C /* MyAirPlane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAirPlane.h; sourceTree = "<group>"; };
+		2FBF7F4F1EC2BB10007FA51C /* MyAirPlane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAirPlane.m; sourceTree = "<group>"; };
+		2FBF7F511EC2BB65007FA51C /* EnemyAirPlane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnemyAirPlane.h; sourceTree = "<group>"; };
+		2FBF7F521EC2BB65007FA51C /* EnemyAirPlane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnemyAirPlane.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FBF7F121EC2B91A007FA51C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBF7F2B1EC2B91B007FA51C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBF7F361EC2B91B007FA51C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FBF7F0C1EC2B91A007FA51C = {
+			isa = PBXGroup;
+			children = (
+				2FBF7F171EC2B91A007FA51C /* AirPlaneWar */,
+				2FBF7F311EC2B91B007FA51C /* AirPlaneWarTests */,
+				2FBF7F3C1EC2B91B007FA51C /* AirPlaneWarUITests */,
+				2FBF7F161EC2B91A007FA51C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FBF7F161EC2B91A007FA51C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FBF7F151EC2B91A007FA51C /* AirPlaneWar.app */,
+				2FBF7F2E1EC2B91B007FA51C /* AirPlaneWarTests.xctest */,
+				2FBF7F391EC2B91B007FA51C /* AirPlaneWarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FBF7F171EC2B91A007FA51C /* AirPlaneWar */ = {
+			isa = PBXGroup;
+			children = (
+				2FBF7F1B1EC2B91A007FA51C /* AppDelegate.h */,
+				2FBF7F1C1EC2B91A007FA51C /* AppDelegate.m */,
+				2FBF7F1E1EC2B91A007FA51C /* ViewController.h */,
+				2FBF7F1F1EC2B91A007FA51C /* ViewController.m */,
+				2FBF7F4E1EC2BB10007FA51C /* MyAirPlane.h */,
+				2FBF7F4F1EC2BB10007FA51C /* MyAirPlane.m */,
+				2FBF7F511EC2BB65007FA51C /* EnemyAirPlane.h */,
+				2FBF7F521EC2BB65007FA51C /* EnemyAirPlane.m */,
+				2FBF7F211EC2B91A007FA51C /* Main.storyboard */,
+				2FBF7F241EC2B91A007FA51C /* Assets.xcassets */,
+				2FBF7F261EC2B91A007FA51C /* LaunchScreen.storyboard */,
+				2FBF7F291EC2B91B007FA51C /* Info.plist */,
+				2FBF7F181EC2B91A007FA51C /* Supporting Files */,
+			);
+			path = AirPlaneWar;
+			sourceTree = "<group>";
+		};
+		2FBF7F181EC2B91A007FA51C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FBF7F191EC2B91A007FA51C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FBF7F311EC2B91B007FA51C /* AirPlaneWarTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FBF7F321EC2B91B007FA51C /* AirPlaneWarTests.m */,
+				2FBF7F341EC2B91B007FA51C /* Info.plist */,
+			);
+			path = AirPlaneWarTests;
+			sourceTree = "<group>";
+		};
+		2FBF7F3C1EC2B91B007FA51C /* AirPlaneWarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2FBF7F3D1EC2B91B007FA51C /* AirPlaneWarUITests.m */,
+				2FBF7F3F1EC2B91B007FA51C /* Info.plist */,
+			);
+			path = AirPlaneWarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FBF7F141EC2B91A007FA51C /* AirPlaneWar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FBF7F421EC2B91B007FA51C /* Build configuration list for PBXNativeTarget "AirPlaneWar" */;
+			buildPhases = (
+				2FBF7F111EC2B91A007FA51C /* Sources */,
+				2FBF7F121EC2B91A007FA51C /* Frameworks */,
+				2FBF7F131EC2B91A007FA51C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirPlaneWar;
+			productName = AirPlaneWar;
+			productReference = 2FBF7F151EC2B91A007FA51C /* AirPlaneWar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FBF7F2D1EC2B91B007FA51C /* AirPlaneWarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FBF7F451EC2B91B007FA51C /* Build configuration list for PBXNativeTarget "AirPlaneWarTests" */;
+			buildPhases = (
+				2FBF7F2A1EC2B91B007FA51C /* Sources */,
+				2FBF7F2B1EC2B91B007FA51C /* Frameworks */,
+				2FBF7F2C1EC2B91B007FA51C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FBF7F301EC2B91B007FA51C /* PBXTargetDependency */,
+			);
+			name = AirPlaneWarTests;
+			productName = AirPlaneWarTests;
+			productReference = 2FBF7F2E1EC2B91B007FA51C /* AirPlaneWarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2FBF7F381EC2B91B007FA51C /* AirPlaneWarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FBF7F481EC2B91B007FA51C /* Build configuration list for PBXNativeTarget "AirPlaneWarUITests" */;
+			buildPhases = (
+				2FBF7F351EC2B91B007FA51C /* Sources */,
+				2FBF7F361EC2B91B007FA51C /* Frameworks */,
+				2FBF7F371EC2B91B007FA51C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FBF7F3B1EC2B91B007FA51C /* PBXTargetDependency */,
+			);
+			name = AirPlaneWarUITests;
+			productName = AirPlaneWarUITests;
+			productReference = 2FBF7F391EC2B91B007FA51C /* AirPlaneWarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FBF7F0D1EC2B91A007FA51C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = 666gps;
+				TargetAttributes = {
+					2FBF7F141EC2B91A007FA51C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6BQ4Q66M66;
+						ProvisioningStyle = Automatic;
+					};
+					2FBF7F2D1EC2B91B007FA51C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6BQ4Q66M66;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2FBF7F141EC2B91A007FA51C;
+					};
+					2FBF7F381EC2B91B007FA51C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6BQ4Q66M66;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2FBF7F141EC2B91A007FA51C;
+					};
+				};
+			};
+			buildConfigurationList = 2FBF7F101EC2B91A007FA51C /* Build configuration list for PBXProject "AirPlaneWar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FBF7F0C1EC2B91A007FA51C;
+			productRefGroup = 2FBF7F161EC2B91A007FA51C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FBF7F141EC2B91A007FA51C /* AirPlaneWar */,
+				2FBF7F2D1EC2B91B007FA51C /* AirPlaneWarTests */,
+				2FBF7F381EC2B91B007FA51C /* AirPlaneWarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FBF7F131EC2B91A007FA51C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBF7F281EC2B91A007FA51C /* LaunchScreen.storyboard in Resources */,
+				2FBF7F251EC2B91A007FA51C /* Assets.xcassets in Resources */,
+				2FBF7F231EC2B91A007FA51C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBF7F2C1EC2B91B007FA51C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBF7F371EC2B91B007FA51C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FBF7F111EC2B91A007FA51C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBF7F201EC2B91A007FA51C /* ViewController.m in Sources */,
+				2FBF7F501EC2BB10007FA51C /* MyAirPlane.m in Sources */,
+				2FBF7F1D1EC2B91A007FA51C /* AppDelegate.m in Sources */,
+				2FBF7F531EC2BB65007FA51C /* EnemyAirPlane.m in Sources */,
+				2FBF7F1A1EC2B91A007FA51C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBF7F2A1EC2B91B007FA51C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBF7F331EC2B91B007FA51C /* AirPlaneWarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBF7F351EC2B91B007FA51C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBF7F3E1EC2B91B007FA51C /* AirPlaneWarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FBF7F301EC2B91B007FA51C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FBF7F141EC2B91A007FA51C /* AirPlaneWar */;
+			targetProxy = 2FBF7F2F1EC2B91B007FA51C /* PBXContainerItemProxy */;
+		};
+		2FBF7F3B1EC2B91B007FA51C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FBF7F141EC2B91A007FA51C /* AirPlaneWar */;
+			targetProxy = 2FBF7F3A1EC2B91B007FA51C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FBF7F211EC2B91A007FA51C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FBF7F221EC2B91A007FA51C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FBF7F261EC2B91A007FA51C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FBF7F271EC2B91A007FA51C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FBF7F401EC2B91B007FA51C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FBF7F411EC2B91B007FA51C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FBF7F431EC2B91B007FA51C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6BQ4Q66M66;
+				INFOPLIST_FILE = AirPlaneWar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yang.AirPlaneWar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2FBF7F441EC2B91B007FA51C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6BQ4Q66M66;
+				INFOPLIST_FILE = AirPlaneWar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yang.AirPlaneWar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2FBF7F461EC2B91B007FA51C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6BQ4Q66M66;
+				INFOPLIST_FILE = AirPlaneWarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yang.AirPlaneWarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirPlaneWar.app/AirPlaneWar";
+			};
+			name = Debug;
+		};
+		2FBF7F471EC2B91B007FA51C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6BQ4Q66M66;
+				INFOPLIST_FILE = AirPlaneWarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yang.AirPlaneWarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirPlaneWar.app/AirPlaneWar";
+			};
+			name = Release;
+		};
+		2FBF7F491EC2B91B007FA51C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6BQ4Q66M66;
+				INFOPLIST_FILE = AirPlaneWarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yang.AirPlaneWarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AirPlaneWar;
+			};
+			name = Debug;
+		};
+		2FBF7F4A1EC2B91B007FA51C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6BQ4Q66M66;
+				INFOPLIST_FILE = AirPlaneWarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yang.AirPlaneWarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AirPlaneWar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FBF7F101EC2B91A007FA51C /* Build configuration list for PBXProject "AirPlaneWar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBF7F401EC2B91B007FA51C /* Debug */,
+				2FBF7F411EC2B91B007FA51C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FBF7F421EC2B91B007FA51C /* Build configuration list for PBXNativeTarget "AirPlaneWar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBF7F431EC2B91B007FA51C /* Debug */,
+				2FBF7F441EC2B91B007FA51C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2FBF7F451EC2B91B007FA51C /* Build configuration list for PBXNativeTarget "AirPlaneWarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBF7F461EC2B91B007FA51C /* Debug */,
+				2FBF7F471EC2B91B007FA51C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2FBF7F481EC2B91B007FA51C /* Build configuration list for PBXNativeTarget "AirPlaneWarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBF7F491EC2B91B007FA51C /* Debug */,
+				2FBF7F4A1EC2B91B007FA51C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FBF7F0D1EC2B91A007FA51C /* Project object */;
+}
